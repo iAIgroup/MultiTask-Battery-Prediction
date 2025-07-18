@@ -17,10 +17,15 @@ jupyter notebook Co-estimation_code.ipynb
 The framework consists of:
 
 Shared Encoder: Extracts common features from input battery data
+
 Task-specific Predictors:
+
 SOH Predictor: Estimates SOH
+
 RUL Predictor: Predicts RUL
+
 DCCR Predictor: Estimates DCCR
+
 Auxiliary Network: Promotes feature disentanglement via gradient reversal
 
 ### Uncertainty Estimation
