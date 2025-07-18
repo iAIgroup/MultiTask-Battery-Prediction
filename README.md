@@ -16,17 +16,12 @@ jupyter notebook Co-estimation_code.ipynb
 ### Model Architecture
 The framework consists of:
 
-Shared Encoder: Extracts common features from input battery data
-
-Task-specific Predictors:
-
-SOH Predictor: Estimates SOH
-
-RUL Predictor: Predicts RUL
-
-DCCR Predictor: Estimates DCCR
-
-Auxiliary Network: Promotes feature disentanglement via gradient reversal
+1. Shared Encoder: Extracts common features from input battery data
+2.Task-specific Predictors:
+3.SOH Predictor: Estimates SOH
+4.RUL Predictor: Predicts RUL
+5.DCCR Predictor: Estimates DCCR
+6.Auxiliary Network: Promotes feature disentanglement via gradient reversal
 
 ### Uncertainty Estimation
 Usage Example
