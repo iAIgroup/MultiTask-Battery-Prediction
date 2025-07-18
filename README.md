@@ -7,10 +7,11 @@ A multi-task learning framework for battery health prognostics with gradient rev
 ### Usage
 1. Hyperparameter Optimization
 Run the hyperparameter optimization notebook first to find optimal parameters:
+jupyter notebook HyperOpt.ipynb
 
-2. Model Training and Testing
-After obtaining optimal hyperparameters, run the main training script:
-
+3. Model Training and Testing
+After obtaining optimal hyperparameters.
+jupyter notebook Co-estimation_code.ipynb
 
 ### Model Architecture
 The framework consists of:
@@ -21,18 +22,6 @@ SOH Predictor: Estimates SOH
 RUL Predictor: Predicts RUL
 DCCR Predictor: Estimates DCCR
 Auxiliary Network: Promotes feature disentanglement via gradient reversal
-
-### Files Description
-Core Files
-Co-estimation_code.ipynb: Main training and testing script
-Model training with gradient reversal
-Multi-task loss computation
-Evaluation with/without uncertainty estimation
-
-HyperOpt.ipynb: Hyperparameter optimization
-Automated parameter search
-Performance evaluation across parameter combinations
-Best parameter selection
 
 ### Uncertainty Estimation
 Usage Example
